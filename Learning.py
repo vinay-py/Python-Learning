@@ -5,9 +5,10 @@ duplicates = [x for x in some_list if some_list.count(x) > 1]
 print(duplicates)
 duplicates = list(set([x for x in some_list if some_list.count(x) > 1]))
 print(duplicates)
-
+##############################################################################################################################################
 # Decorators
 # can be used for authenticating or logging or performance check or decorating a print line everytime a func runs
+##############################################################################################################################################
 
 
 def performance(fn):
@@ -51,3 +52,4 @@ def message_friends(user):
 
 
 message_friends(user1)
+##############################################################################################################################################
