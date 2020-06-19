@@ -15,10 +15,9 @@ print(my_list)
 
 
 def factorial(num):
-    fact = num
-    if fact != 1:
-        fact = fact * factorial(fact-1)
-    return fact
+    if num != 1:
+        return num*factorial(num-1)
+    return 1
 
 
 print(factorial(8))
